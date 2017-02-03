@@ -52,7 +52,7 @@ a:hover {
 }
 
 .interactive-container {
-  height: 100vh;
+  height: auto;
   width: 100vw;
 }
 
