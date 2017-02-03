@@ -60,12 +60,20 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 2%;
-    /* height: 100%;
-    width: 100%; */
+}
+
+.label {
+    width: 150px;
+    display: block;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    color: white;
 }
 
 .img-container {
-    /* height: 70%; */
     width: 100%;
     display: flex;
     padding: 1% 0;
@@ -116,6 +124,7 @@ a:hover {
 
 .line {
     transition: color 0.4s 0.2s ;
+    width: 70%;
     display: none;
 }
 
