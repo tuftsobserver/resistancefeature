@@ -1,11 +1,8 @@
-// zippy scroll to each section
-$.scrollify({
-    section: ".scroll"
-});
-
 $(document).ready(function(){
 
     $('.img').mouseover(function(){
+        $('.interactive').addClass('theater');
+        $('.quote').addClass('theater');
         var name = $(this).attr('class');
         $('.img').removeClass('active');
         $(this).addClass('active');
