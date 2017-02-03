@@ -29,7 +29,8 @@ h2,
 }
 
 .pullquote {
-  margin: 2rem 0;
+  width: 100%;
+  margin: 1rem 0.4rem;
   padding: 1rem 0;
   border-top: solid .5rem;
   border-bottom: solid .5rem;
@@ -52,6 +53,45 @@ a:hover {
 
 .interactive-container {
   height: 100vh;
+  width: 100vw;
+}
+
+.img-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-container > div {
+  width: 25%;
+  height: auto;
+}
+
+img {
+  padding: 1%;
+  max-width: 100%;
+  height: auto;
+}
+
+.quote-container {
+  height: auto;
+  width: auto;
+}
+
+p.nicole {
+  display: none;
+}
+
+p.parker {
+  display: none;
+}
+
+p.patrick {
+  display: none;
+}
+
+p.lupita {
+  display: none;
 }
 
 article, footer {
