@@ -49,6 +49,9 @@ a:hover {
 .landing-page {
     height: 100%;
     background-color: #EBEBEB;
+    background-image: url('http://i.imgur.com/WJbA6IK.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     text-align: center;
 }
 
@@ -154,8 +157,17 @@ footer ul {
 .vertically-center {
     position: relative;
     top: 50%;
+    padding: 20px 0;
+    width: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(235, 235, 235, 0.9);
+    opacity: 0;
+    transition: opacity 2s 0.3s;
+}
+
+.vertically-center.on{
+    opacity: 1;
 }
 
 .bounded-width {

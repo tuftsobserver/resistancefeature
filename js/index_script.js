@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    $('.vertically-center').delay(1400).addClass('on')
     $('.img').mouseover(function(){
         $('.interactive').addClass('theater');
         $('.quote').addClass('theater');
